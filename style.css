@@ -12,11 +12,11 @@ nav{
   margin: auto;
 }
 
-.navbar-left{
+.left{
   float: left;
 }
 
-.navbar-right{
+.right{
   float: right;
 }
 
@@ -26,13 +26,13 @@ nav{
   clear: both;
 }
 
-.navbar-left::after{
+.left::after{
   content: "";
   display: table;
   clear: both;
 }
 
-.navbar-left > *{
+.left > *{
   float: left;
 }
 
@@ -48,4 +48,76 @@ nav{
   line-height: 100px;
   color: white;
   padding-left: 10px;
+}
+
+.scuola{
+  background-color: #cecece;
+  height: 80px;
+  padding-top:  15px;
+}
+
+.textcenter{
+  text-align: center;
+}
+
+.backwhite{
+  width: 1000px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.backwhite > div{
+  width: 33.3333%;
+  float: left;
+}
+
+.main-item > img{
+  width: 150px;
+  height: 150px;
+}
+
+.backwhite{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.main-item > h2{
+  color: green;
+  padding-top: 30px 0px 15px 0px;
+}
+
+.main-item > hr{
+  opacity: 0.3;
+  width: 32px;
+  margin: auto;
+}
+
+.backwhite2::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.backwhite2{
+  width: 1000px;
+  margin: auto;
+}
+
+.backwhite2 > div{
+  width: 50%;
+  margin-top: 40px;
+}
+
+#riga{
+  margin: 20PX 0PX 20PX 0PX;
+}
+
+.backwhite2 > img{
+  width: 200px;
+  height: 200px;
+}
+
+.backwhite2 > .right{
+  padding-top: 100px;
 }
