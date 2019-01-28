@@ -1,0 +1,51 @@
+*{
+  box-sizing:border-box;
+  margin: 0;
+}
+
+nav{
+  background-color: #0d325a;
+}
+
+.container{
+  width: 1000px;
+  margin: auto;
+}
+
+.navbar-left{
+  float: left;
+}
+
+.navbar-right{
+  float: right;
+}
+
+.navbar::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.navbar-left::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.navbar-left > *{
+  float: left;
+}
+
+.navbar-image{
+  margin-top: 25px;
+}
+
+.navbar{
+  height: 100px;
+}
+
+.navbar-item{
+  line-height: 100px;
+  color: white;
+  padding-left: 10px;
+}
